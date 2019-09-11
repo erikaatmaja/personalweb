@@ -205,8 +205,18 @@ a:hover {
 	grid-gap: 1em 1em;
 	margin-bottom: 5%;
 }
+.art{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	grid-gap: 1em 1.5em;
+	margin-bottom: 5%;
+}
 .album img:hover{
 	transform: scale(1.2);
+}
+.tq{
+	color: #ff9270;
 }
 
 /*FORRRRRRM*/
@@ -314,7 +324,7 @@ a:hover {
 	img {vertical-align: middle}
 .slideshow-container {
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	}
 .text {
 	color: #f2f2f2;
